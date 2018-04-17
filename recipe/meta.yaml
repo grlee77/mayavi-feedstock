@@ -29,7 +29,7 @@ requirements:
     - numpy 1.11.*  # [win and py36]
     - setuptools
     - vtk 7.1.*
-    - traitsui
+    - traitsui >=6  # >6 required for Qt5 support
     - apptools
   run:
     - python
@@ -37,10 +37,10 @@ requirements:
     - numpy >=1.9   # [win and py35]
     - numpy >=1.11  # [win and py36]
     - vtk 7.1.*
-    - traitsui
+    - traitsui >=6  # >6 required for Qt5 support
     - apptools
     - envisage
-    - pyqt 4.*
+    - pyqt
     - setuptools
 
 test:
